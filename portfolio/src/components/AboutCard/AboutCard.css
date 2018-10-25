@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Spac3Tech;
+    src: url("/../../assets/styles/Spac3Tech.ttf");
+    }
+
+.aboutCard {
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 5px;
+    padding-left: 10px;
+    position: absolute !important;
+    left: 600px !important;
+    background: white;
+    width: 50%;
+}

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Spac3Tech;
+    src: url("../../../src/assets/styles/Spac3Tech.ttf");
+}
+
+.display-4 {
+    font-family: Spac3Tech !important;
+    text-align: center;
+    font-size: 8rem;
+    margin: 0 auto !important;
+}
+
+.jumbotron {
+    position: relative;
+    padding: 0px !important;
+    margin: 0 auto !important;
+    width: 100%;
+    height: 150px !important;
+    background-color:rgba(255, 255, 255, 1);
+}
