@@ -36,14 +36,15 @@ const MainCard = () =>
                 <Link to="/Portfolio">
                     <a className="btn btn-primary" value="portfolio">Portfolio</a>
                 </Link>
+                <Link to="/Blog">
+                    <a className="btn btn-primary" value="blog">Blog</a>
+                </Link>
+                <Link to="/Contact">
+                    <a className="btn btn-primary" value="contact">Contact</a>
+                </Link>
                 
-                {/* <br />
-                <a href="/Portfolio" className="btn btn-primary">Portfolio</a>
-                <br />
-                <a href="/Blog" className="btn btn-primary">Blog</a>
-                <br />
-                <a href="/Contact" className="btn btn-primary">Contact</a>
-                <br />
+                {/* 
+                
                 <div className="social">
                 <img alt="fb" id="fb" src= { fb } /><img alt="linkedIn" id="linkedIn" src= { linkedIn } /><img alt="gitHub" id="gitHub" src= { gitHub } /> */}
 

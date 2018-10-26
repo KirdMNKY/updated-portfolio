@@ -10,6 +10,8 @@ import Title from './components/Title';
 import MainCard from './components/MainCard';
 import AboutCard from './components/AboutCard';
 import PortfolioCard from './components/PortfolioCard/PortfolioCard';
+import BlogCard from './components/BlogCard/BlogCard';
+import ContactCard from './components/ContactCard/ContactCard';
 
 import Footer from './components/Footer';
 
@@ -27,12 +29,8 @@ class App extends Component {
               <Route exact path="/" component={AboutCard} />
               <Route exact path="/About" component={AboutCard} />
               <Route exact path="/Portfolio" component={PortfolioCard} />
-              {/* <Route exact path="/Blog" component={Blog} />
-              <Route path="/Contact" component={Contact} />  */}
-
-          
-          {/* <AboutCard />
-          <PortfolioCard /> */}
+              <Route exact path="/Blog" component={BlogCard} />
+              <Route path="/Contact" component={ContactCard} />  
         </div>
         <Footer />
       </div>
