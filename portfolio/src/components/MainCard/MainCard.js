@@ -1,4 +1,12 @@
+import {
+    BrowserRouter as Router,
+    Link,
+    Route,
+    Switch,
+  } from 'react-router-dom';
 import React from "react";
+import AboutCard from "../AboutCard/AboutCard";
+import PortfolioCard from "../PortfolioCard/PortfolioCard";
 import "./MainCard.css";
 const pic = require ("../../assets/images/profile.png");
 const fb = require ("../../assets/images/facebook_logo_detail.gif");
@@ -8,6 +16,7 @@ const linkedIn = require ("../../assets/images/logo.png");
 const MainCard = () => 
 {
     return(
+        
         <div className="card main-card">
             <img className="card-img-top" src={ pic } alt="Profile Pic" />
             <div className="card-body">
@@ -20,8 +29,15 @@ const MainCard = () =>
 
                 I have always felt that I could "see" the underlying code for any program or application I am using. I have that grasp and understanding of how, what, where, when, and why the code does what it does. I wish to put this skill to work in the creation of programs for others to understand and interpret. */}
                 </p>
-                <a href="/About" className="btn btn-primary">About</a>
-                <br />
+                
+                <Link to="/About">
+                    <a className="btn btn-primary" value="about">About</a>
+                </Link>
+                <Link to="/Portfolio">
+                    <a className="btn btn-primary" value="portfolio">Portfolio</a>
+                </Link>
+                
+                {/* <br />
                 <a href="/Portfolio" className="btn btn-primary">Portfolio</a>
                 <br />
                 <a href="/Blog" className="btn btn-primary">Blog</a>
@@ -29,10 +45,17 @@ const MainCard = () =>
                 <a href="/Contact" className="btn btn-primary">Contact</a>
                 <br />
                 <div className="social">
-                <img alt="fb" id="fb" src= { fb } /><img alt="linkedIn" id="linkedIn" src= { linkedIn } /><img alt="gitHub" id="gitHub" src= { gitHub } />
-                </div>
+                <img alt="fb" id="fb" src= { fb } /><img alt="linkedIn" id="linkedIn" src= { linkedIn } /><img alt="gitHub" id="gitHub" src= { gitHub } /> */}
+
+                
+
+
+                
+                {/* </div> */}
+                
             </div>
         </div>
+        
     )
 }
 
