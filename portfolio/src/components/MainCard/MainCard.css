@@ -19,6 +19,7 @@
 
 .main-card {
     width: 18rem;
+    margin-top: 15px;
     position: absolute !important;
     left: 300px !important;
     float: left;
