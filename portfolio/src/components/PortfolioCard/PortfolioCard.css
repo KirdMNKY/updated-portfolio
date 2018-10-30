@@ -4,7 +4,6 @@
     }
 
 .portfolioCard {
-    text-align: left;
     margin-top: 15px;
     margin-left: 5px;
     padding-left: 10px;
@@ -12,4 +11,8 @@
     left: 600px !important;
     background: white;
     width: 50%;
+}
+
+.portfolioIntro {
+    text-align: center;
 }

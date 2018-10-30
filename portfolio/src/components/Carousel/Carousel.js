@@ -9,48 +9,96 @@ import {
   CardBody
 } from 'reactstrap';
 
+// Images for the Carousel
 import bamazon from "../../assets/images/portfolioImages/bamazon.jpeg";
+import bot from "../../assets/images/portfolioImages/bot.png";
+import burger from "../../assets/images/portfolioImages/burger.jpeg";
+import career from "../../assets/images/portfolioImages/career.jpg";
+import crystalball from "../../assets/images/portfolioImages/crystalball.jpg";
+import friend from "../../assets/images/portfolioImages/friend.jpeg";
+import leagueG2G from "../../assets/images/portfolioImages/leaguelogo.jpg";
+import news from "../../assets/images/portfolioImages/news.jpg";
+import oneRing from "../../assets/images/portfolioImages/oneRing.jpg";
+import OnTap from "../../assets/images/portfolioImages/OnTapT.png";
+import rupee from "../../assets/images/portfolioImages/rupee.png";
+import marvel from "../../assets/images/portfolioImages/marvel.png";
+import train from "../../assets/images/portfolioImages/train.jpg";
+import giftastic from "../../assets/images/portfolioImages/giftastic.png";
 
+// Array of images
 const items = [
     {
-        src: { bamazon }
+        src: bamazon,
+        altText: "bamazon cli",
+        href: "https://drive.google.com/file/d/1Y-l9u6fBnzQXPuAuZByleXnXEyS60zOY/view"
     },
     {
-        src:"../../assets/images/portfolioImages/bot.jpeg"
+        src: bot,
+        altText: "chatbot cli",
+        href: "https://github.com/KirdMNKY/liri-bot"   
+    }, 
+    {
+        src: burger,
+        altText: "eat da burger",
+        href: ""    
     },
     {
-        src:"../../assets/images/portfolioImages/burger.jpeg"
+        src: career,
+        altText: "career finder",
+        href: "https://kirdmnky.github.io/project-one/"    
     },
     {
-        src:"../../assets/images/portfolioImages/career.jpg"
+        src: crystalball,
+        altText: "psychic game",
+        href: "https://kirdmnky.github.io/Psychic-Game/"    
     },
     {
-        src:"../../assets/images/portfolioImages/cyrstalball.jpg"
+        src: friend,
+        altText: "friend finder",
+        href: "https://mnkyfriendfinder.herokuapp.com/"   
+    }, 
+    {
+        src: leagueG2G,
+        altText: "lol g2g group finder",
+        href: "https://lolg2g.herokuapp.com/"   
+    }, 
+    {
+        src: news,
+        altText: "monster hunter newser",
+        href: ""   
+    }, 
+    {
+        src: oneRing,
+        altText: "lord of the rings trivia",
+        href: "https://kirdmnky.github.io/triviaGame/"   
+    }, 
+    {
+        src: OnTap,
+        altText: "on tap entertainment app",
+        href: "https://ontapp.herokuapp.com/home"    
     },
     {
-        src:"../../assets/images/portfolioImages/friend.jpeg"
+        src: rupee,
+        altText: "crystal collector",
+        href: "https://kirdmnky.github.io/crystal-collector/"    
     },
     {
-        src:"../../assets/images/portfolioImages/leaguelogo.jpg"
+        src: marvel,
+        altText: "mavel react clicky game ",
+        href: ""    
     },
     {
-        src:"../../assets/images/portfolioImages/news.jpg"
+        src: train,
+        altText: "train scheduler",
+        href: "https://kirdmnky.github.io/train-time/"    
     },
     {
-        src:"../../assets/images/portfolioImages/oneRing.jpg"
+        src: giftastic,
+        altText: "giftastic",
+        href: "https://kirdmnky.github.io/gif-tastic"    
     },
-    {
-        src:"../../assets/images/portfolioImages/OnTapT.png"
-    },
-    {
-        src:"../../assets/images/portfolioImages/rupee.png"
-    },
-    {
-        src:"../../assets/images/portfolioImages/Starlord.png"
-    },
-    {
-        src:"../../assets/images/portfolioImages/train.jpg"
-    }
+
+    
   ];
 
 class CarouselPortfolio extends Component {
@@ -108,7 +156,11 @@ class CarouselPortfolio extends Component {
                 className="Carousel-card"
             >
                 <CardBody>
-                    <iframe title="Portfolio Carousel" src={item.src} width="410" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <a href={ item.href } target="_blank"><img src={ item.src } alt={ item.altText } width="410" height="380" /></a>
+                    <br />
+                    <div className="altText">
+                    <h2>{ item.altText }</h2>
+                    </div>
                 </CardBody>
             </Card>
 

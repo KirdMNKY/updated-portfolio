@@ -1,0 +1,17 @@
+.resumes {
+    position: relative;
+    padding-bottom: 50px;
+}
+
+#resume1 {
+    padding-left: 25px;
+}
+
+#resume2 {
+    padding-left: 25px;
+}
+
+.aboutHREnd {
+    width: 50%;
+    border: 3px solid black;
+}

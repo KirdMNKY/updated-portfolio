@@ -1,5 +1,8 @@
 import React from "react";
 import "./AboutCard.css";
+
+import ResumesCard from "../ResumesCard/ResumesCard";
+
 import SkillJS from "../../assets/images/JSLogo.png";
 import SkillJava from "../../assets/images/javaLogo.png";
 import SkillHTML5 from "../../assets/images/html5Logo.png";
@@ -12,11 +15,7 @@ import NEISD from "../../assets/images/NEISDLogo.gif";
 import UISD from "../../assets/images/UISDLogo.jpg";
 import UTatA from "../../assets/images/UTatALogo.png";
 import TAMIU from "../../assets/images/TAMIULogo.png";
-import resume1 from "../../assets/images/resume1.png";
-import resume2 from "../../assets/images/resume2.png";
 
-import resume1pdf from "../../assets/files/MSoto_Resume_2018.pdf";
-import resume2pdf from "../../assets/files/MSotoCodingResume2018.pdf";
 
 const Cardbody = () =>
 
@@ -169,19 +168,19 @@ const Cardbody = () =>
         <h1>skills</h1>
         <div className="SkillsLeft">
             <p className="aboutCardP">
-                <li>
+                <li className="skillsList">
                     Leader
                 </li>
-                <li>
+                <li className="skillsList">
                     Innovative
                 </li>
-                <li>
+                <li className="skillsList">
                     Creative
                 </li>
-                <li>
+                <li className="skillsList">
                     Team Player
                 </li>
-                <li>
+                <li className="skillsList">
                     Problem Solver
                 </li>
             </p>
@@ -189,32 +188,26 @@ const Cardbody = () =>
        
         <div className="SkillsLeft">
             <p className="aboutCardP">
-                <li>
+                <li className="skillsList">
                     Bilingual
                 </li>
-                <li>
+                <li className="skillsList">
                     Patient
                 </li>
-                <li>
+                <li className="skillsList">
                     Hardworking
                 </li>
-                <li>
+                <li className="skillsList">
                     Determined
                 </li>
-                <li>
+                <li className="skillsList">
                     Adaptive
                 </li>
                
             </p>
         </div>
 
-        <h1>resume</h1>
-        <div className="resumes">
-            <a href={ resume1pdf } target="_blank"><img src={ resume1 } alt="resume1" id="resume1" /></a>
-            <a href={ resume2pdf } target="_blank"><img src={ resume2 } alt="resume2" id="resume2" /></a>
-        </div>
-        
-        <hr className="aboutHREnd" />
+        <ResumesCard />
         
 
     </div>
