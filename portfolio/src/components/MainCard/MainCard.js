@@ -20,14 +20,9 @@ const MainCard = () =>
         <div className="card main-card">
             <img className="card-img-top" src={ pic } alt="Profile Pic" />
             <div className="card-body">
-                <h5 className="card-title">About Me</h5>
-                <p className="card-text">I have had a career in education for thirteen years, and as much as I loved being involved with helping kids grow in their knowledge of not only business and technology education, but also of the world, I need a change. I have been coding casually for about twenty years, and had been teaching coding for about ten of those years.
-
-                {/* I have always dabbled in creating sprites, coding games, teaching application and web development, and, at this point in my life, I feel I am ready to code full-time. I want to create for more than just my own amusement. I want to develop websites, applications, programs, etc. for others to make use of and enjoy!
-
-                As an educator, more specifically a Computer Science educator, I have honed my debugging skills and developed a new way of looking at and percieving a bit of code's purposes. In that knowledge I am able to refine the code to make it more efficient and streamlined.
-
-                I have always felt that I could "see" the underlying code for any program or application I am using. I have that grasp and understanding of how, what, where, when, and why the code does what it does. I wish to put this skill to work in the creation of programs for others to understand and interpret. */}
+                <h5 className="card-title">hello, world</h5>
+                <p className="card-text">
+                I am currently seeking employment as a Full Stack Web Developer. I have over 20 years personal experience coding in languages such as C#, C++, Java, Python, HTML/CSS, JavaScript, etc., and have taught programming in those languages for 10 years in a college prepatory setting.
                 </p>
                 
                 <Link to="/About">
@@ -43,16 +38,18 @@ const MainCard = () =>
                     <a className="btn btn-primary" value="contact">Contact</a>
                 </Link>
                 
-                {/* 
+                
                 
                 <div className="social">
-                <img alt="fb" id="fb" src= { fb } /><img alt="linkedIn" id="linkedIn" src= { linkedIn } /><img alt="gitHub" id="gitHub" src= { gitHub } /> */}
+                <a href="https://www.facebook.com/kirdmnky" target="_blank"><img alt="fb" id="fb" src= { fb } /></a>
+                <a href="https://www.linkedin.com/in/mrmikesoto" target="_blank"><img alt="linkedIn" id="linkedIn" src= { linkedIn } /></a>
+                <a href="https://www.github.com/kirdmnky" target="_blank"><img alt="gitHub" id="gitHub" src= { gitHub } /></a>
 
                 
 
 
                 
-                {/* </div> */}
+                </div>
                 
             </div>
         </div>

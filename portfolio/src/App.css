@@ -49,6 +49,11 @@ body {
   height: 100%;
   min-height: 100%;
 
+
+}
+
+.btn {
+  color: white !important;
 }
 
 @keyframes App-logo-spin {

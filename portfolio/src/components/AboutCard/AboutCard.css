@@ -3,13 +3,308 @@
     src: url("/../../assets/styles/Spac3Tech.ttf");
     }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: Spac3Tech;
+
+}
+
+.aboutCardP {
+    font-size: 1.25rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .aboutCard {
     text-align: left;
     margin-top: 15px;
+    padding-top: 10px;
     margin-left: 5px;
     padding-left: 10px;
     position: absolute !important;
     left: 600px !important;
     background: white;
     width: 50%;
+}
+
+.aboutHR {
+    width: 50%;
+    border: 3px solid black;
+    margin-left: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.SkillsLeft {
+    width: 40%;
+    position: relative;
+    float: left;
+}
+
+.SkillsRight {
+    width: 40%;
+    position: relative;
+    float: left;    
+}
+
+.aboutCard, li {
+    list-style-image: url('../../assets/images/gorillaBullet.png');
+}
+
+#NEISD {
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    float: left;
+    border-radius: 25%;
+}
+
+#UISD {
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    float: left;
+    border-radius: 25%;
+}
+
+#UTatA {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 15px;
+    float: left;
+    border-radius: 25%;
+}
+
+#TAMIU {
+    width: 110px;
+    height: 80px;
+    margin-right: 5px;
+    float: left;
+    border-radius: 25%;
+}
+
+#SkillJSimg {
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    float: left;
+    border-radius: 25%;
+}
+
+#SkillJavaimg {
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    float: left;
+    border-radius: 25%;
+}
+
+#SkillHTMLimg {
+    width: 100px;
+    height: 80px;
+    margin-left: -15px;
+    margin-right: 20px;
+    float: left;
+    border-radius: 25%;
+}
+
+#SkillCSSimg {
+    width: 60px;
+    height: 80px;
+    margin-right: 45px;
+    float: left;
+    border-radius: 25%;
+}
+
+#SkillNodeJSimg {
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    float: left;
+    border-radius: 25%;
+}
+
+#SkillExpressimg {
+    width: 140px;
+    height: 80px;
+    margin-left: -30px;
+    margin-right: -5px;
+    float: left;
+    border-radius: 25%;
+}
+
+#SkillNodeJSimg {
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    float: left;
+    border-radius: 25%;
+}
+
+#SkillMySQLimg {
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    float: left;
+    border-radius: 25%;
+}
+
+#SkillMongoDBimg {
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    float: left;
+    border-radius: 25%;
+}
+
+.progress {
+    margin-top: 30px;
+    height: 20px;
+    float: left;
+    width: 200px !important;
+}
+
+#SkillJSBar {
+    width: 75%;
+}
+
+#SkillJavaBar {
+    width: 75%;
+}
+
+#SkillHTMLBar {
+    width: 85%;
+}
+
+#SkillCSSBar {
+    width: 70%;
+}
+
+#SkillNodeJSBar {
+    width: 50%;
+}
+
+#SkillExpressBar {
+    width: 50%;
+}
+
+#SkillNodeJSBar {
+    width: 50%;
+}
+
+#SkillMySQLBar {
+    width: 50%;
+}
+
+#SkillMongoDBBar {
+    width: 50%;
+}
+
+.educationCard {
+    position: relative;
+}
+
+.experienceCard {
+    position: relative
+}
+
+.vr {
+    width:2px;
+    height:50px;
+    background-color:#FFFFFF;
+    position:absolute;
+    top: 25px;
+}
+
+.tabYearJob1 {
+    font-family: Spac3Tech;
+    font-size: 1.5rem;
+    padding-left: 5px;
+    width: 75px;
+    border-bottom-left-radius: 25%;
+    border-top-left-radius: 25%;
+    height: 100px;
+    background: #047AFB;
+    color: white;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    position: absolute;
+    float: left;
+    top: 0px;
+    left: -80px;
+    
+}
+
+.tabYearJob2 {
+    font-family: Spac3Tech;
+    font-size: 1.5rem;
+    padding-left: 5px;
+    width: 75px;
+    border-bottom-left-radius: 25%;
+    border-top-left-radius: 25%;
+    height: 100px;
+    background: #047AFB;
+    color: white;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    position: absolute;
+    float: left;
+    top: 125px;
+    left: -80px;
+}
+
+.tabYear1 {
+    font-family: Spac3Tech;
+    font-size: 1.5rem;
+    padding-left: 5px;
+    width: 35px;
+    border-bottom-left-radius: 25%;
+    border-top-left-radius: 25%;
+    background: #047AFB;
+    color: white;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: absolute;
+    float: left;
+    top: 0px;
+    left: -40px;
+}
+
+.tabYear2 {
+    font-family: Spac3Tech;
+    font-size: 1.5rem;
+    padding-left: 5px;
+    width: 35px;
+    border-bottom-left-radius: 25%;
+    border-top-left-radius: 25%;
+    background: #047AFB;
+    color: white;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: absolute;
+    float: left;
+    top: 120px;
+    left: -40px;
+}
+
+.resumes {
+    position: relative;
+    padding-bottom: 50px;
+}
+
+#resume1 {
+    padding-left: 25px;
+}
+
+#resume2 {
+    padding-left: 25px;
+}
+
+.aboutHREnd {
+    width: 50%;
+    border: 3px solid black;
 }
