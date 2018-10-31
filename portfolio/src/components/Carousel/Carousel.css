@@ -1,4 +1,7 @@
 .Carousel-img {
+    border-radius: 5%;
+    margin-left: 10px;
+    margin-right: 10px;
     position: relative;
     background: linear-gradient(
         rgba(255, 255, 255, .9), 

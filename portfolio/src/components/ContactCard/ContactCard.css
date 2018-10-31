@@ -12,4 +12,24 @@
     left: 600px !important;
     background: white;
     width: 50%;
+    padding-bottom: 20px;
+}
+
+.submitBtn {
+    background: #047AFB;
+    border: none;
+    height: 50px;
+}
+
+#name {
+    width: 25%;
+}
+
+#email {
+    width: 25%;
+}
+
+#message {
+    width: 50%;
+    height: 250px;
 }
