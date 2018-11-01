@@ -23,8 +23,10 @@ const Cardbody = () =>
     return (
 
     <div className="aboutCard">
+        <div className="aboutIntro">
+            <h1>about me</h1>
+        </div>
         <p className="aboutCardP">
-        <h1>about me</h1>
         I have had a career in education for thirteen years, and as much as I loved being involved with helping kids grow in their knowledge of not only business and technology education, but also of the world, I need a change. I have been coding casually for about twenty years, and had been teaching coding for about ten of those years.
         </p>
         <p className="aboutCardP">

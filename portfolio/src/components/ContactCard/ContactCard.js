@@ -62,17 +62,19 @@ const Cardbody = () =>
         return (
 
         <div className="ContactCard">
-            <h1>contact</h1>
+            <div className="contactIntro">
+                <h1>contact</h1>
+            </div>
 
             <Form>
                 <FormGroup>
                     <Label for="exampleText">Name</Label>
                     <Input type="name" name="text" id="name" placeholder="Your Name"/>
-                    
+                    <br />
                     <Label for="email">Email</Label>
                     <Input type="email" name="email" id="email" placeholder="example@example.com" OnChange= { this.handleInputChange } />
                     {/* OnInput={ this.checkValid ? validTrue() : validFalse() } /> */}
-                 
+                    <br />
                     <Label for="message">Text Area</Label>
                     <Input type="textarea" name="text" id="message" placeholder="Please leave me a message and I will get back to you as soon as possilbe."/>
                 </FormGroup>
